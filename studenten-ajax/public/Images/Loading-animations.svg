@@ -1,0 +1,20 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+     width="400" height="300" viewBox="0 0 1000 500">
+  <g transform="scale(1,-1) translate(0,-200)">
+    <rect x="50" y="0" fill="#f00" width="50" height="100">
+      <animate attributeName="height" from="0" to="100" dur="3s" fill="freeze" repeatCount="indefinite" />
+    </rect>
+    <rect x="150" y="0" fill="#f70" width="50" height="150">
+      <animate attributeName="height" from="0" to="150" dur="0.5s" fill="freeze" />
+    </rect>
+    <rect x="250" y="0" fill="#ec0" width="50" height="200">
+      <animate attributeName="height" from="0" to="200" dur="0.5s" fill="freeze" />
+    </rect>
+		<rect x="350" y="0" fill="#f70" width="50" height="250">
+      <animate attributeName="height" from="0" to="250" dur="0.5s" fill="freeze" />
+    </rect>
+		<rect x="450" y="0" fill="#ec0" width="50" height="300">
+      <animate attributeName="height" from="0" to="300" dur="0.5s" fill="freeze" />
+    </rect>
+  </g>
+</svg>
